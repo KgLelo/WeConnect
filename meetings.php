@@ -168,7 +168,7 @@ if ($role === 'teacher' && $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST
 
 ?>
 
-<!-- === MAIN DASHBOARD CONTENT === -->
+
 <div style="padding: 20px;">
 
 <?php if ($role === 'parent'): ?>
@@ -252,7 +252,6 @@ if ($role === 'teacher' && $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST
     </div>
 
 <?php else: ?>
-    <!-- You can add teacher dashboard or other roles here -->
 <?php endif; ?>
 
 <!-- Meeting Requests Table (same for all roles) -->
