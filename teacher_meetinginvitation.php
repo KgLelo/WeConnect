@@ -111,9 +111,9 @@ function sendNotification($to, $phone, $subject, $message) {
   }
   ?>
  
-  <!-- Create Meeting Form (unchanged) -->
+  <!-- Create Meeting Form -->
   <form method="POST" style="margin-bottom: 30px;">
-    <!-- form inputs as before... -->
+    
     <label>Title:</label><br>
     <input type="text" name="title" required style="width:100%; padding:8px;"><br>
  
