@@ -93,7 +93,7 @@ if ($role === 'teacher' && $_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['add'])) {
         $subject = $_POST['subject'];
         $date = $_POST['date'];
-        $time = $_POST['time'];  // Time field added
+        $time = $_POST['time'];  
         $desc = $_POST['description'];
         $grade = $_POST['grade'];
 
@@ -112,7 +112,7 @@ if ($role === 'teacher' && $_SERVER['REQUEST_METHOD'] === 'POST') {
         $examID = $_POST['examID'];
         $subject = $_POST['subject'];
         $date = $_POST['date'];
-        $time = $_POST['time'];  // Time field added
+        $time = $_POST['time']; 
         $desc = $_POST['description'];
         $grade = $_POST['grade'];
 
